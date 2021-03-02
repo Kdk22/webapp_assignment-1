@@ -1,0 +1,60 @@
+﻿@page
+@model DataBound.Pages.Admin.Author.CreateAuthorModel
+
+@{
+    ViewData["Title"] = "Author Page";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Author.FirstName"></label>
+                <input asp-for="Author.FirstName" class="form-control" />
+                <span asp-validation-for="Author.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.LastName"></label>
+                <input asp-for="Author.LastName" class="form-control" />
+                <span asp-validation-for="Author.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.BirthDate"></label>
+                <input asp-for="Author.BirthDate" class="form-control" />
+                <span asp-validation-for="Author.BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.Email"></label>
+                <input asp-for="Author.Email" class="form-control" />
+                <span asp-validation-for="Author.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.WebsiteAddress"></label>
+                <input asp-for="Author.WebsiteAddress" class="form-control" />
+                <span asp-validation-for="Author.WebsiteAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.TelephoneNumber"></label>
+                <input asp-for="Author.TelephoneNumber" class="form-control" />
+                <span asp-validation-for="Author.TelephoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.Country"></label>
+                <input asp-for="Author.Country" class="form-control" />
+                <span asp-validation-for="Author.Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.Province"></label>
+                <input asp-for="Author.Province" class="form-control" />
+                <span asp-validation-for="Author.Province" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Author.PostalCode"></label>
+                <input asp-for="Author.PostalCode" class="form-control" />
+                <span asp-validation-for="Author.PostalCode" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn  btn-default">Submit</button>
+        </form>
+    </div>
+</div>  
