@@ -1,5 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using DataBound.Models;
+
+using System.Collections.Generic;
+
+
 namespace DataBound.Models
 {
     
@@ -38,6 +43,8 @@ namespace DataBound.Models
         public String Province { get; set; }
         [StringLength(10)]
         public String PostalCode { get; set; }
+
+        public ICollection<BlogClass> Blog { get; set; }
 
         public AuthorClass()
         {

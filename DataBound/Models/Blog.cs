@@ -19,7 +19,7 @@ namespace DataBound.Models
 
         [Required]
         [StringLength(100)]
-        public string Author { get; set; }
+        public AuthorClass Author { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
