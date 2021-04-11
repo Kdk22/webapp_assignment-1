@@ -1,0 +1,17 @@
+﻿{
+  "name": "Blog Application",
+  "short_name": "Web App",
+  "description": "Progressive Web App that lists blogs",
+  "icons": [
+    {
+      "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "minimal-ui",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}
