@@ -1,6 +1,8 @@
 ﻿var CACHE_NAME = 'my-site-chache';
 var urlsToCache = [
-    '/'
+    '/',
+    '/css/site.css',
+    '/js/site.js'
 ];
 
 self.addEventListener('install', function (event) {
